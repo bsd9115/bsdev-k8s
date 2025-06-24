@@ -1,0 +1,14 @@
+persistence:
+  enabled: true
+  storageClassName: "standard"
+  accessModes:
+    - ReadWriteOnce
+  size: 5Gi
+
+adminUser: admin
+adminPassword: admin1234
+
+service:
+  type: NodePort
+  nodePort: 30030  # Grafana Web UI 접근 포트
+

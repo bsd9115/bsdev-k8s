@@ -1,0 +1,12 @@
+valheim/
+*.bundle
+*.assets
+*.so
+*.dll
+*.exe
+*.tar
+*.zip
+*.iso
+*.img
+*.gz
+*.7z
